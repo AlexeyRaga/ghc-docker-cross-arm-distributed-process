@@ -3,7 +3,7 @@
 #    sudo docker run --rm -i -t -v `pwd`:/home/ghc alexeyraga/ghc-cross-arm-distributed-process /bin/bash
 #
 
-FROM alexeyraga/ghc-docker-cross-arm:latest
+FROM alexeyraga/ghc-cross-arm:latest
 MAINTAINER Alexey Raga
 
 ## disable prompts from apt
