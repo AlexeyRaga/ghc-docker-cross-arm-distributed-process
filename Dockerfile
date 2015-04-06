@@ -1,6 +1,6 @@
-# mount the GHC source code into /home/ghc
+# mount the Haskell source code into /home/ghc
 #
-#    sudo docker run --rm -i -t -v `pwd`:/home/ghc alexeyraga/ghc-cross-arm-distributed-process /bin/bash
+#    sudo docker run --rm -i -t -v `pwd`:/home/ghc alexeyraga/ghc-cross-arm-cloud /bin/bash
 #
 
 FROM alexeyraga/ghc-cross-arm:latest
